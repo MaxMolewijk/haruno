@@ -1,18 +1,16 @@
-<script>
-</script>
-
+<!-- TODO refactor to make prettier -->
 <div class="container">
     <div class="row align-items-center justify-content-between">
-        <div class="col-auto">LOGO + + HARUNO</div>
-        <div class="col-auto row menu-options">
+        <div class="col-auto ">
+            <p><img src="assets/haruno_logo.png" class="logo" alt="HARUNO logo"/> HARUNO</p>
+        </div>
+        <div class="col-auto row menuOptions">
             <p class="col">Works</p>
             <p class="col">About</p>
             <p class="col">Media</p>
             <p class="col">Contact</p>
         </div>
-        <div class="col-auto hamburger">
-
-        </div>
+        <div class="col-auto hamburger" />
     </div>
 </div>
 
@@ -20,10 +18,13 @@
     .container > .row {
         height: 100px;
     }
-    
+
     p {
         margin: 0;
-        padding: 20px;
+        padding: 30px;
+        color: #2c2851;
+        font-weight: bold;
+        font-size: 18px;
     }
 
     .hamburger {
@@ -39,7 +40,7 @@
     }
 
     @media only screen and (max-width: 600px) {
-        .menu-options {
+        .menuOptions {
             display: none;
         }
         .hamburger {
@@ -47,4 +48,8 @@
         }
     }
 
+    .logo {
+        width: 50px;
+        margin-right: 15px;
+    }
 </style>
