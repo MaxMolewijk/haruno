@@ -1,8 +1,13 @@
+<script>
+    export let text = "";
+</script>
+
+
 <div class="container">
     <div class="row align-items-center">
         <div class="col-auto line" />
         <div class="col-auto">
-            <p>What I do best</p>
+            <p>{text}</p>
         </div>
     </div>
 </div>
