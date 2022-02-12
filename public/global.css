@@ -27,6 +27,12 @@ a:visited {
 	color: #6416ff;
 }
 
+h1 {
+	font-family: 'Poppins', sans-serif;
+	color: #2C2851;
+	font-size: 90px;
+}
+
 /* Boostrap related styling */
 .col, .col-auto, .row {
 	padding: 0;

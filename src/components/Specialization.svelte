@@ -19,10 +19,8 @@
 </div>
 
 <style>
+
     h1 {
-        font-family: 'Poppins', sans-serif;
-        color: #2C2851;
-        font-size: 90px;
         margin-bottom: 50px;
     }
 

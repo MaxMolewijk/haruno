@@ -4,6 +4,7 @@
 	import Companies from "./components/Companies.svelte";
 	import Seperator from "./components/Seperator.svelte";
 	import Specialisation from "./components/Specialization.svelte";
+	import Works from "./components/Works.svelte";
 </script>
 
 <Header />
@@ -12,6 +13,4 @@
 <Seperator text={"What I do best"}/>
 <Specialisation/>
 <Seperator text={"Projects that are clients love"}/>
-
-<style>
-</style>
+<Works/>
