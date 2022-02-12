@@ -5,6 +5,7 @@
 	import Seperator from "./components/Seperator.svelte";
 	import Specialisation from "./components/Specialization.svelte";
 	import Works from "./components/Works.svelte";
+	import Newsletter from "./components/Newsletter.svelte";
 </script>
 
 <Header />
@@ -14,3 +15,5 @@
 <Specialisation/>
 <Seperator text={"Projects that are clients love"}/>
 <Works/>
+<Seperator text={"My weekly newsletter and blogs"}/>
+<Newsletter/>
