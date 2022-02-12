@@ -1,7 +1,6 @@
 html, body {
 	position: relative;
 	width: 100%;
-	height: 100%;
 	background: rgb(251, 251, 251);
 	background: linear-gradient(0deg, rgba(251, 251, 251, 1) 0%, rgba(254, 247, 248, 1) 72%, rgba(255, 245, 247, 1) 100%);
 }

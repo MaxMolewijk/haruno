@@ -35,8 +35,6 @@
     }
     .container {
         margin-top: 50px;
-        padding-left: 50px;
-        padding-right: 50px;
     }
 
     .coverImage {
@@ -45,14 +43,15 @@
     }
 
     #name {
-        font-size: 40px;
+        font-size: 50px;
         color: #2c2851;
         font-family: 'Satisfy', cursive;
         font-weight: 900;
+        margin-bottom: 20px;
     }
 
     #role {
-        font-size: 80px;
+        font-size: 90px;
         line-height: 110%;
         background-repeat: repeat;
         -webkit-background-clip: text;
@@ -63,7 +62,7 @@
     }
 
     #description {
-        font-size: 20px;
+        font-size: 25px;
         color: #797696;
         margin-top: 40px;
         font-weight: bold ;

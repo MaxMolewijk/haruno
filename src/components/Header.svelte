@@ -17,14 +17,15 @@
 <style>
     .container > .row {
         height: 100px;
+        margin-top: 50px;
     }
 
     p {
         margin: 0;
         padding: 30px;
         color: #2c2851;
-        font-weight: bold;
-        font-size: 18px;
+        font-size: 20px;
+        font-weight: 900;
     }
 
     .hamburger {
@@ -51,5 +52,6 @@
     .logo {
         width: 50px;
         margin-right: 15px;
+        margin-left: -30px;
     }
 </style>
