@@ -13,6 +13,10 @@ Missing features:
 - Text overlapping an image on the "about" section
 - Mobile friendly newsletter slider (works on desktop)
 
+Libraries:
+- Bootstrap (for layout purposes)
+- Font Awesome (for icons)
+
 ## Get started
 
 Install the dependencies...
