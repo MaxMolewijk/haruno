@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container" id="contact">
     <div class="row justify-content-center">
         <h1>Let's connect</h1>
         <p>Got a project feel free to get touch</p>
@@ -10,18 +10,18 @@
         </p>
     </div>
     <div class="row justify-content-center">
-        <div id="name" class="col-5">
+        <div id="name" class="col-12 col-md-5 col-xl-5">
             <input class="input" placeholder="Your sweet name">
         </div>
-        <div id="email" class="col-5">
+        <div id="email" class="col-12 col-md-6 col-xl-5">
             <input class="input" placeholder="Your mail adress">
         </div>
     </div>
     <div class="row justify-content-center">
-        <div id="message" class="col-8">
+        <div id="message" class="col-12 col-md-8">
             <textarea class="input" placeholder="About your message "></textarea>
         </div>
-        <div id="send" class="col-2 row align-items-center justify-content-center">
+        <div id="send" class="col-12 col-md-2 row align-items-center justify-content-center">
             <p>SEND <br><i class="col-auto fa-solid fa-arrow-right"/></p>
         </div>
     </div>
@@ -45,7 +45,7 @@
     }
 
     a {
-        font-size: 40px;
+        font-size: 3.5vmax;
     }
     a:hover {
         color: #6518ff;

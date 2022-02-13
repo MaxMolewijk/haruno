@@ -1,7 +1,7 @@
 <div class="container">
     <div class="row align-items-center justify-content-between heading">
         <div class="col-auto">
-            <h1>Works</h1>
+            <h1 id="works">Works</h1>
         </div>
         <div class="col-auto explore">
             Explore all projects <i
@@ -102,5 +102,11 @@
         font-weight: bold;
         margin-bottom: 90px;
         width: 80%;
+    }
+
+    @media only screen and (max-width: 524px) {
+        h2{
+            text-align: center;
+        }
     }
 </style>

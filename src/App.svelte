@@ -1,23 +1,23 @@
 <script>
-	import Header from "./components/Header.svelte";
-	import About from "./components/About.svelte";
-	import Companies from "./components/Companies.svelte";
+	import Header from "./navigation/Header.svelte";
+	import About from "./sections/About.svelte";
+	import Companies from "./sections/Companies.svelte";
 	import Seperator from "./components/Seperator.svelte";
-	import Specialisation from "./components/Specialization.svelte";
-	import Works from "./components/Works.svelte";
-	import Newsletter from "./components/Newsletter.svelte";
-	import Contact from "./components/Contact.svelte";
-	import Footer from "./components/Footer.svelte";
+	import Specialisation from "./sections/Specialization.svelte";
+	import Works from "./sections/Works.svelte";
+	import Newsletter from "./sections/Newsletter.svelte";
+	import Contact from "./sections/Contact.svelte";
+	import Footer from "./navigation/Footer.svelte";
 </script>
 
 <Header />
-<About />
+<About/>
 <Companies />
 <Seperator text={"What I do best"} />
-<Specialisation />
+<Specialisation/>
 <Seperator text={"Projects that are clients love"} />
-<Works />
+<Works/>
 <Seperator text={"My weekly newsletter and blogs"} />
-<Newsletter />
+<Newsletter/>
 <Contact />
 <Footer/>

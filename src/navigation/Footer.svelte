@@ -2,9 +2,9 @@
     <div class="row justify-content-between">
         <div class="col-auto row align-items-center">
             <img src="assets/haruno_logo.png" class="col-auto logo" alt="HARUNO logo"/>
-            <p class="col-auto">Works</p>
-            <p class="col-auto">About</p>
-            <p class="col-auto">Media</p>
+            <p class="col-auto"><a href="#works">Works</a></p>
+            <p class="col-auto"><a href="#about">About</a></p>
+            <p class="col-auto"><a href="#media">Media</a></p>
         </div>
         <div class="col-auto row align-items-center">
             <i class="col-auto icons fa-brands fa-behance"></i>
@@ -23,7 +23,6 @@
 
     .logo {
         width: 50px;
-        margin-right: 30px;
     }
 
     p {
@@ -34,9 +33,17 @@
         font-weight: 900;
     }
 
+    a {
+        color: #2c2851 !important;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
     .icons {
         font-size: 30px;
-        margin-left: 50px;
+        padding: 25px;
         color: #2c2851;
     }
 </style>

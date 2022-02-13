@@ -1,7 +1,7 @@
 <div class="container">
     <div class="row align-items-center justify-content-between heading">
         <div class="col-auto">
-            <h1>Design newsletter</h1>
+            <h1 id="media">Design newsletter</h1>
         </div>
         <div class="col-auto explore">
             Explore all blogs <i
@@ -163,7 +163,7 @@
     h2 {
         color: #2c2851;
         font-family: "Poppins", sans-serif;
-        font-size: 40px;
+        font-size: 3vmax;
         margin-top: 60px;
         margin-bottom: 30px;
     }
@@ -196,6 +196,13 @@
     @media only screen and (max-width: 769px) {
         .scrolling-wrapper {
             padding-left: calc((100% - 520px) / 2);
+        }
+    }
+
+    /* Media query to reduce font size on mobile */
+    @media only screen and (max-width: 530px) {
+        .description {
+            font-size: 20px;
         }
     }
 </style>
