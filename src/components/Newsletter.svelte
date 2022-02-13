@@ -13,25 +13,60 @@
 
 <div class="scrolling-wrapper">
     <div class="card">
-        <img src="assets/psychology.png" alt="From thhe basic" class="topic"/>
-        <div class="read row align-items-center">
-            <p class="col-auto">Read</p>
-            <i class="col-auto fa-solid fa-arrow-right arrow" />
+        <div class="imageContainer">
+            <img
+                src="assets/psychology.png"
+                alt="From thhe basic"
+                class="topic"
+            />
+            <div class="read row align-items-center">
+                <p class="col-auto">Read</p>
+                <i class="col-auto fa-solid fa-arrow-right arrow" />
+            </div>
         </div>
+        <h2>User psychology</h2>
+        <p class="description">
+            The ultimate guide to proper understanding <br />
+            user perspective and it's impact on <br /> day to day life
+        </p>
     </div>
     <div class="card">
-        <img src="assets/nerd.png" alt="Make simple and elegant " class="topic"/>
-        <div class="read row align-items-center">
-            <p class="col-auto">Read</p>
-            <i class="col-auto fa-solid fa-arrow-right arrow" />
+        <div class="imageContainer">
+            <img
+                src="assets/nerd.png"
+                alt="Make simple and elegant "
+                class="topic"
+            />
+            <div class="read row align-items-center">
+                <p class="col-auto">Read</p>
+                <i class="col-auto fa-solid fa-arrow-right arrow" />
+            </div>
         </div>
+        <h2>Illustration nuance</h2>
+        <p class="description">
+            A brief explanation on how to apply colors <br />
+            and how to create simple, elegeant <br />
+            illustration
+        </p>
     </div>
     <div class="card">
-        <img src="assets/inspirational.png" alt="create art" class="topic"/>
-        <div class="read row align-items-center">
-            <p class="col-auto">Read</p>
-            <i class="col-auto fa-solid fa-arrow-right arrow" />
+        <div class="imageContainer">
+            <img
+                src="assets/inspirational.png"
+                alt="create art"
+                class="topic"
+            />
+            <div class="read row align-items-center">
+                <p class="col-auto">Read</p>
+                <i class="col-auto fa-solid fa-arrow-right arrow" /> 
+            </div>
         </div>
+        <h2>User research</h2>
+        <p class="description">
+            Step down the stairs of humility to completely<br>
+            come up with a description of your own <br>
+            becase the image was cut off
+        </p>
     </div>
 </div>
 
@@ -79,6 +114,9 @@
         display: inline-block;
         margin-right: 80px;
         position: relative;
+        border: none;
+        background-color: transparent;
+        width: 700px;
     }
 
     .topic {
@@ -116,6 +154,25 @@
         font-size: 20px;
         margin-left: 30px;
         transition: 0.5s;
+    }
+
+    .imageContainer {
+        position: relative;
+    }
+
+    h2 {
+        color: #2c2851;
+        font-family: "Poppins", sans-serif;
+        font-size: 40px;
+        margin-top: 60px;
+        margin-bottom: 30px;
+    }
+
+    .description {
+        font-size: 24px;
+        color: #797696;
+        font-weight: bold;
+        margin-bottom: 90px;
     }
 
     /* Media queries to enable align the scrolling cards with the H1 title */
