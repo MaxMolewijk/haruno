@@ -7,6 +7,7 @@
 	import Works from "./components/Works.svelte";
 	import Newsletter from "./components/Newsletter.svelte";
 	import Contact from "./components/Contact.svelte";
+	import Footer from "./components/Footer.svelte";
 </script>
 
 <Header />
@@ -19,3 +20,4 @@
 <Seperator text={"My weekly newsletter and blogs"} />
 <Newsletter />
 <Contact />
+<Footer/>
