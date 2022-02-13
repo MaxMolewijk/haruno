@@ -6,14 +6,16 @@
 	import Specialisation from "./components/Specialization.svelte";
 	import Works from "./components/Works.svelte";
 	import Newsletter from "./components/Newsletter.svelte";
+	import Contact from "./components/Contact.svelte";
 </script>
 
 <Header />
 <About />
 <Companies />
-<Seperator text={"What I do best"}/>
-<Specialisation/>
-<Seperator text={"Projects that are clients love"}/>
-<Works/>
-<Seperator text={"My weekly newsletter and blogs"}/>
-<Newsletter/>
+<Seperator text={"What I do best"} />
+<Specialisation />
+<Seperator text={"Projects that are clients love"} />
+<Works />
+<Seperator text={"My weekly newsletter and blogs"} />
+<Newsletter />
+<Contact />
